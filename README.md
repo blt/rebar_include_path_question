@@ -35,7 +35,7 @@ make: *** [compile] Error 1
 This is a result of the line
 
 ```
--include("library/include/library.hrl").
+-include_lib("library/include/library.hrl").
 ```
 
 in `apps/daemon/src/daemon_app.erl`. If this header were included in a

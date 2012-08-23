@@ -1,7 +1,7 @@
 -module(daemon_app).
 -behaviour(application).
 
--include("library/include/library.hrl").
+-include_lib("library/include/library.hrl").
 
 %% Application callbacks
 -export([start/0, start/2, stop/1]).
