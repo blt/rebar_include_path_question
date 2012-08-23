@@ -1,0 +1,13 @@
+{application, daemon,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  client
+                 ]},
+  {mod, { daemon_app, []}},
+  {env, []}
+ ]}.

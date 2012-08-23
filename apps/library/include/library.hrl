@@ -1,0 +1,1 @@
+-define(say_hi(), io:format("Hello world~n")).
